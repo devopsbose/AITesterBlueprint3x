@@ -1,0 +1,36 @@
+{
+  "validUser": {
+    "username": "testuser",
+    "password": "password123",
+    "email": "testuser@example.com"
+  },
+  "invalidUser": {
+    "username": "invaliduser",
+    "password": "wrongpassword"
+  },
+  "users": [
+    {
+      "id": 1,
+      "name": "John Doe",
+      "email": "john@example.com",
+      "role": "admin"
+    },
+    {
+      "id": 2,
+      "name": "Jane Doe",
+      "email": "jane@example.com",
+      "role": "user"
+    }
+  ],
+  "apiTestData": {
+    "createUser": {
+      "name": "New User",
+      "email": "newuser@example.com",
+      "role": "user"
+    },
+    "updateUser": {
+      "name": "Updated User",
+      "email": "updated@example.com"
+    }
+  }
+}
